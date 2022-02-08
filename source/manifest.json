@@ -1,0 +1,41 @@
+{
+    "Actions": [
+      {
+        "Icon": "assets/actionIcon", 
+        "Name": "DummyAction", 
+        "States": [
+          {
+            "Image": "actionDefaultImage",
+            "TitleAlignment": "middle", 
+            "FontSize": "16"
+          }
+        ], 
+        "SupportedInMultiActions": false,
+        "Tooltip": "Dummy action", 
+        "UUID": "com.cdl.test.dummyAction"
+      }
+    ],
+    "SDKVersion": 2,
+    "Author": "Aleksandar Zdravkovic", 
+    "CodePath": "index.html", 
+    "PropertyInspectorPath": "propertyInspector/pi_index.html",
+    "Description": "Dummy plugin", 
+    "Name": "Dummy plugin", 
+    "Icon": "assets/pluginIcon", 
+    "URL": "https://github.com/alexandarZ/Basic-ElgatoStreamDeck-JS-Plugin", 
+    "Version": "1.0.0",
+    "OS": [
+      {
+          "Platform": "mac", 
+          "MinimumVersion" : "10.11"
+      },
+      {
+          "Platform": "windows", 
+          "MinimumVersion" : "10"
+      }
+    ],
+    "Software": 
+    {
+          "MinimumVersion" : "5.0"
+    }
+} 
